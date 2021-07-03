@@ -1,7 +1,23 @@
 body {
-  background: #fafafa;
+  background-image: url('./img/bg.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
   color: #333333;
   margin-top: 5rem;
+}
+
+.about-paragraph {
+  color: #fff;
+}
+
+.about-content {
+  background:rgb(0 0 0 / 25%) !important;
+  padding: 20px;
+}
+
+.text-secondary {
+  color: #ffc107!important;
 }
 
 h1,
@@ -10,12 +26,32 @@ h3,
 h4,
 h5,
 h6 {
-  color: #444444;
+  color: #fff !important;
   font-family: "Bebas Neue";
+}
+#jumbotron-home {
+  background-image: url('./img/bg1.jpg') !important;
+  background-size: cover;
+  background-attachment: fixed !important;
+  background-position: center;
+  text-align: center;
+  color: #fff !important;
+}
+
+.jumbotron {
+  background: #00000099 !important;
+  text-align: center;
+  color: #fff !important;
+}
+
+.jumbotron-about {
+  background: #00000000 !important;
+  text-align: center;
+  color: #fff !important;
 }
 
 .bg-steel {
-  background-color: #5f788a;
+  background-color: #003358;
 }
 
 .site-header .navbar-nav .nav-link {
@@ -31,15 +67,16 @@ h6 {
 }
 
 .content-section {
-  background: #fff;
+  background: #ffffff0d;
   padding: 10px 20px;
-  border: 1px solid #dddddd;
+  color: #fffee7;
+  border: 1px solid rgba(187, 0, 0, 0);
   border-radius: 3px;
   margin-bottom: 20px;
 }
 
 .article-title {
-  color: #444444;
+  color: #fff;
 }
 
 a.article-title:hover {
@@ -49,6 +86,10 @@ a.article-title:hover {
 
 .article-content {
   white-space: pre-line;
+}
+
+.mr-2 {
+  color: #ffe100;
 }
 
 .media-body a {
@@ -64,10 +105,10 @@ a.article-title:hover {
 .article-metadata {
   padding-bottom: 1px;
   margin-bottom: 4px;
-  border-bottom: 1px solid #e3e3e3;
+  border-bottom: 1px solid rgb(251 221 0);
 }
 .article-metadata:hover {
-  color: #333;
+  color: rgb(130, 242, 18);
   text-decoration: none;
 }
 
@@ -87,3 +128,27 @@ a.article-title:hover {
 .account-heading {
   font-size: 2.5rem;
 }
+
+.form-control {
+
+  color: #fff;
+  background-color: #ffffff0a;
+  
+}
+
+.text-muted {
+  color: #ffc107!important;
+}
+
+
+
+input :-internal-autofill-selected {
+  
+  background-color: rgba(232, 240, 254, 0.008) !important;
+}
+
+.list-group-item-light {
+  color: #ebebf3;
+  background-color: #1a59506b;
+}
+
